@@ -1,0 +1,163 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('img/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+nav {
+  background-color: #202020;
+  opacity: 85%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.items {
+  margin-right: auto;
+  margin-left: auto;
+  display: table;
+}
+
+nav a {
+  transition: 0.3s;
+  display: inline-block;
+  color: #e4e4e4;
+  text-align: center;
+  padding: 20px 1rem;
+  margin: 1rem 1rem;
+  opacity: 85%;
+  text-decoration: none;
+  border-radius: 1rem;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #0f0f0f;
+  border: none;
+}
+
+.typewrite {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+
+.container {
+  width: 84%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+
+.tanitimparca {
+  padding: 3%;
+}
+
+.metinparcartl {
+  flex-shrink: 0;
+  width: 65%
+}
+
+.bodyparcartl {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resimparcartl {
+  flex-shrink: 0;
+  width: 35%;
+}
+
+.metinparcaltr {
+  flex-shrink: 0;
+  width: 65%
+}
+
+.img1rtl {
+  border-radius: 1rem;
+  width: 95%;
+  margin-left: 5%;
+}
+
+.bodyparcaltr {
+  max-width: 100%;
+  border-radius: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resimparcaltr {
+  flex-shrink: 0;
+  width: 35%;
+}
+
+.img1ltr {
+  border-radius: 1rem;
+  width: 95%;
+}
+
+.baslik {
+  flex: 0 0 auto;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.metin {
+  font-size: 17px;
+  text-align: justify;
+}
+
+.footerparca {
+  margin-top: 3rem;
+  background-color: #4d4d4d;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 92%;
+}
+
+.sozparca {
+  width: 66.67%;
+  flex: 0 0 auto;
+  border-right: 1px solid gray;
+}
+
+.medyaparca {
+  margin-top:auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  color: #ffffff;
+}
+
+.soz {
+  color: #ffffff;
+  font-size: 24px;
+  padding-block: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.medyametin {
+  margin-left: 3px;
+}

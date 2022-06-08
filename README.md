@@ -1,1 +1,3 @@
-# PetaRobotWebPage
+# Peta Robot
+
+Sevgili Okur; bu proje şu an yapım aşamasındadır. Proje bitince tüm dosyalar buraya yüklenecektir. İyi çalışmalar...
